@@ -1,23 +1,11 @@
 # Weighted Returns
 
-### Introduction
-
 Weighted Returns is an iOS app that allows the user to track the weighted returns of their entire investment portfolio
 
-### Purpose 
+### Design Mocks
 
-To build a good app
+<img width="820" alt="Screen Shot 2021-03-18 at 12 10 51 PM" src="https://user-images.githubusercontent.com/25331902/111658739-ffdd8b80-87e2-11eb-9d0c-b1c3ea139b4b.png">
 
-### Notable Features
+### Status
 
-- Home Screen Widget
-- CoreData
-
-### Challenges
-
-Accessibility
-
-### Future Features
-
-- **Two-Factor Authentication**: Allow the user the option to utilize an Authenticator App or a Physical Security Key to provide a second level of authentication
-- **Compound Interest Calculator**
+🚧 Under Construction
