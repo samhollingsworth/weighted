@@ -1,11 +1,15 @@
-# Weighted Returns
+# Weighted
 
-Weighted Returns is an iOS app that allows the user to track the weighted returns of their entire investment portfolio
+## Problem
+This app was inspired by the use of the Apple Stocks app that allows you to see the performance of individual securities but cannot be customized to show the performance of your personal portfolio. Also, apps supplied by financial institutions usually had a feature where you could congregrate your accounts (even if they're from different institutions) into one page and be summarized into one number that represents your net worth. The issue I found with this feature is that they are slow to update, sometimes taking 1-2 days, and aren't easily accessed (usually have to login to their app) with no support for a widget on the home screen. 
+
+## Solution 
+Weighted Returns is an iOS app that allows the user to track the weighted returns of their entire investment portfolio so they can easily and quickly see the performance of their entire portfolio or individual accounts (i.e. IRA, 401k). It functions similarly to the default Stock app but with the added ability to create custom portfolios where users can set the weight of each security.
 
 ### Future Features
 
-* **CoreData** to persist the data between sessions 
-* **Home Screen Widget** that will allow the user to quickly see their how their portfolio is performing
+* **CoreData** to persist the data between sessions so the user can still see the most recently fetched performance of their portfolio and make changes to the allocation
+* **Home Screen Widget** that will allow the user to quickly see their how their overall portfolio is performing as well as individual accounts
 
 ### Design Mocks
 
