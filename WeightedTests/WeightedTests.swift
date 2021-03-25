@@ -1,14 +1,14 @@
 //
-//  PortfolioTrackerTests.swift
-//  PortfolioTrackerTests
+//  WeightedTests.swift
+//  WeightedTests
 //
 //  Created by Sam Hollingsworth on 2/7/21.
 //
 
 import XCTest
-@testable import PortfolioTracker
+@testable import Weighted
 
-class PortfolioTrackerTests: XCTestCase {
+class WeightedTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

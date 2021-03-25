@@ -11,11 +11,11 @@
 		65D1865B25D075C2008744A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D1865A25D075C2008744A1 /* AppDelegate.swift */; };
 		65D1865D25D075C2008744A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D1865C25D075C2008744A1 /* SceneDelegate.swift */; };
 		65D1865F25D075C2008744A1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D1865E25D075C2008744A1 /* MainViewController.swift */; };
-		65D1866525D075C2008744A1 /* PortfolioTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65D1866325D075C2008744A1 /* PortfolioTracker.xcdatamodeld */; };
+		65D1866525D075C2008744A1 /* Weighted.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65D1866325D075C2008744A1 /* Weighted.xcdatamodeld */; };
 		65D1866725D075C3008744A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D1866625D075C3008744A1 /* Assets.xcassets */; };
 		65D1866A25D075C3008744A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D1866825D075C3008744A1 /* LaunchScreen.storyboard */; };
-		65D1867525D075C3008744A1 /* PortfolioTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D1867425D075C3008744A1 /* PortfolioTrackerTests.swift */; };
-		65D1868025D075C3008744A1 /* PortfolioTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D1867F25D075C3008744A1 /* PortfolioTrackerUITests.swift */; };
+		65D1867525D075C3008744A1 /* WeightedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D1867425D075C3008744A1 /* WeightedTests.swift */; };
+		65D1868025D075C3008744A1 /* WeightedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D1867F25D075C3008744A1 /* WeightedUITests.swift */; };
 		65D186A225D07A18008744A1 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D186A125D07A18008744A1 /* AccountView.swift */; };
 		65D186A725D07A24008744A1 /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D186A625D07A24008744A1 /* AccountListView.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		65CC6EA625D096E400C73649 /* AccountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailView.swift; sourceTree = "<group>"; };
-		65D1865725D075C2008744A1 /* PortfolioTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortfolioTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D1865725D075C2008744A1 /* Weighted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weighted.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D1865A25D075C2008744A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65D1865C25D075C2008744A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		65D1865E25D075C2008744A1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -47,13 +47,13 @@
 		65D1866625D075C3008744A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65D1866925D075C3008744A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65D1866B25D075C3008744A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65D1867025D075C3008744A1 /* PortfolioTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortfolioTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		65D1867425D075C3008744A1 /* PortfolioTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioTrackerTests.swift; sourceTree = "<group>"; };
+		65D1867025D075C3008744A1 /* WeightedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D1867425D075C3008744A1 /* WeightedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightedTests.swift; sourceTree = "<group>"; };
 		65D1867625D075C3008744A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65D1867B25D075C3008744A1 /* PortfolioTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortfolioTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		65D1867F25D075C3008744A1 /* PortfolioTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioTrackerUITests.swift; sourceTree = "<group>"; };
+		65D1867B25D075C3008744A1 /* WeightedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D1867F25D075C3008744A1 /* WeightedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightedUITests.swift; sourceTree = "<group>"; };
 		65D1868125D075C3008744A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65D1869025D07621008744A1 /* PortfolioTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PortfolioTracker.entitlements; sourceTree = "<group>"; };
+		65D1869025D07621008744A1 /* Weighted.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Weighted.entitlements; sourceTree = "<group>"; };
 		65D186A125D07A18008744A1 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		65D186A625D07A24008744A1 /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,9 +86,9 @@
 		65D1864E25D075C1008744A1 = {
 			isa = PBXGroup;
 			children = (
-				65D1865925D075C2008744A1 /* PortfolioTracker */,
-				65D1867325D075C3008744A1 /* PortfolioTrackerTests */,
-				65D1867E25D075C3008744A1 /* PortfolioTrackerUITests */,
+				65D1865925D075C2008744A1 /* Weighted */,
+				65D1867325D075C3008744A1 /* WeightedTests */,
+				65D1867E25D075C3008744A1 /* WeightedUITests */,
 				65D1865825D075C2008744A1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,45 +96,45 @@
 		65D1865825D075C2008744A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65D1865725D075C2008744A1 /* PortfolioTracker.app */,
-				65D1867025D075C3008744A1 /* PortfolioTrackerTests.xctest */,
-				65D1867B25D075C3008744A1 /* PortfolioTrackerUITests.xctest */,
+				65D1865725D075C2008744A1 /* Weighted.app */,
+				65D1867025D075C3008744A1 /* WeightedTests.xctest */,
+				65D1867B25D075C3008744A1 /* WeightedUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65D1865925D075C2008744A1 /* PortfolioTracker */ = {
+		65D1865925D075C2008744A1 /* Weighted */ = {
 			isa = PBXGroup;
 			children = (
 				65D186A025D079EE008744A1 /* Components */,
-				65D1869025D07621008744A1 /* PortfolioTracker.entitlements */,
+				65D1869025D07621008744A1 /* Weighted.entitlements */,
 				65D1865A25D075C2008744A1 /* AppDelegate.swift */,
 				65D1865C25D075C2008744A1 /* SceneDelegate.swift */,
 				65D1865E25D075C2008744A1 /* MainViewController.swift */,
 				65D1866625D075C3008744A1 /* Assets.xcassets */,
 				65D1866825D075C3008744A1 /* LaunchScreen.storyboard */,
 				65D1866B25D075C3008744A1 /* Info.plist */,
-				65D1866325D075C2008744A1 /* PortfolioTracker.xcdatamodeld */,
+				65D1866325D075C2008744A1 /* Weighted.xcdatamodeld */,
 			);
-			path = PortfolioTracker;
+			path = Weighted;
 			sourceTree = "<group>";
 		};
-		65D1867325D075C3008744A1 /* PortfolioTrackerTests */ = {
+		65D1867325D075C3008744A1 /* WeightedTests */ = {
 			isa = PBXGroup;
 			children = (
-				65D1867425D075C3008744A1 /* PortfolioTrackerTests.swift */,
+				65D1867425D075C3008744A1 /* WeightedTests.swift */,
 				65D1867625D075C3008744A1 /* Info.plist */,
 			);
-			path = PortfolioTrackerTests;
+			path = WeightedTests;
 			sourceTree = "<group>";
 		};
-		65D1867E25D075C3008744A1 /* PortfolioTrackerUITests */ = {
+		65D1867E25D075C3008744A1 /* WeightedUITests */ = {
 			isa = PBXGroup;
 			children = (
-				65D1867F25D075C3008744A1 /* PortfolioTrackerUITests.swift */,
+				65D1867F25D075C3008744A1 /* WeightedUITests.swift */,
 				65D1868125D075C3008744A1 /* Info.plist */,
 			);
-			path = PortfolioTrackerUITests;
+			path = WeightedUITests;
 			sourceTree = "<group>";
 		};
 		65D186A025D079EE008744A1 /* Components */ = {
@@ -150,9 +150,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65D1865625D075C1008744A1 /* PortfolioTracker */ = {
+		65D1865625D075C1008744A1 /* Weighted */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D1868425D075C3008744A1 /* Build configuration list for PBXNativeTarget "PortfolioTracker" */;
+			buildConfigurationList = 65D1868425D075C3008744A1 /* Build configuration list for PBXNativeTarget "Weighted" */;
 			buildPhases = (
 				65D1865325D075C1008744A1 /* Sources */,
 				65D1865425D075C1008744A1 /* Frameworks */,
@@ -162,14 +162,14 @@
 			);
 			dependencies = (
 			);
-			name = PortfolioTracker;
+			name = Weighted;
 			productName = PortfolioTracker;
-			productReference = 65D1865725D075C2008744A1 /* PortfolioTracker.app */;
+			productReference = 65D1865725D075C2008744A1 /* Weighted.app */;
 			productType = "com.apple.product-type.application";
 		};
-		65D1866F25D075C3008744A1 /* PortfolioTrackerTests */ = {
+		65D1866F25D075C3008744A1 /* WeightedTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D1868725D075C3008744A1 /* Build configuration list for PBXNativeTarget "PortfolioTrackerTests" */;
+			buildConfigurationList = 65D1868725D075C3008744A1 /* Build configuration list for PBXNativeTarget "WeightedTests" */;
 			buildPhases = (
 				65D1866C25D075C3008744A1 /* Sources */,
 				65D1866D25D075C3008744A1 /* Frameworks */,
@@ -180,14 +180,14 @@
 			dependencies = (
 				65D1867225D075C3008744A1 /* PBXTargetDependency */,
 			);
-			name = PortfolioTrackerTests;
+			name = WeightedTests;
 			productName = PortfolioTrackerTests;
-			productReference = 65D1867025D075C3008744A1 /* PortfolioTrackerTests.xctest */;
+			productReference = 65D1867025D075C3008744A1 /* WeightedTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		65D1867A25D075C3008744A1 /* PortfolioTrackerUITests */ = {
+		65D1867A25D075C3008744A1 /* WeightedUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D1868A25D075C3008744A1 /* Build configuration list for PBXNativeTarget "PortfolioTrackerUITests" */;
+			buildConfigurationList = 65D1868A25D075C3008744A1 /* Build configuration list for PBXNativeTarget "WeightedUITests" */;
 			buildPhases = (
 				65D1867725D075C3008744A1 /* Sources */,
 				65D1867825D075C3008744A1 /* Frameworks */,
@@ -198,9 +198,9 @@
 			dependencies = (
 				65D1867D25D075C3008744A1 /* PBXTargetDependency */,
 			);
-			name = PortfolioTrackerUITests;
+			name = WeightedUITests;
 			productName = PortfolioTrackerUITests;
-			productReference = 65D1867B25D075C3008744A1 /* PortfolioTrackerUITests.xctest */;
+			productReference = 65D1867B25D075C3008744A1 /* WeightedUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -225,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 65D1865225D075C1008744A1 /* Build configuration list for PBXProject "PortfolioTracker" */;
+			buildConfigurationList = 65D1865225D075C1008744A1 /* Build configuration list for PBXProject "Weighted" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -238,9 +238,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65D1865625D075C1008744A1 /* PortfolioTracker */,
-				65D1866F25D075C3008744A1 /* PortfolioTrackerTests */,
-				65D1867A25D075C3008744A1 /* PortfolioTrackerUITests */,
+				65D1865625D075C1008744A1 /* Weighted */,
+				65D1866F25D075C3008744A1 /* WeightedTests */,
+				65D1867A25D075C3008744A1 /* WeightedUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -279,7 +279,7 @@
 				65D1865F25D075C2008744A1 /* MainViewController.swift in Sources */,
 				65D1865B25D075C2008744A1 /* AppDelegate.swift in Sources */,
 				65D1865D25D075C2008744A1 /* SceneDelegate.swift in Sources */,
-				65D1866525D075C2008744A1 /* PortfolioTracker.xcdatamodeld in Sources */,
+				65D1866525D075C2008744A1 /* Weighted.xcdatamodeld in Sources */,
 				65CC6EA725D096E400C73649 /* AccountDetailView.swift in Sources */,
 				65D186A725D07A24008744A1 /* AccountListView.swift in Sources */,
 				65D186A225D07A18008744A1 /* AccountView.swift in Sources */,
@@ -290,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D1867525D075C3008744A1 /* PortfolioTrackerTests.swift in Sources */,
+				65D1867525D075C3008744A1 /* WeightedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D1868025D075C3008744A1 /* PortfolioTrackerUITests.swift in Sources */,
+				65D1868025D075C3008744A1 /* WeightedUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,12 +307,12 @@
 /* Begin PBXTargetDependency section */
 		65D1867225D075C3008744A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65D1865625D075C1008744A1 /* PortfolioTracker */;
+			target = 65D1865625D075C1008744A1 /* Weighted */;
 			targetProxy = 65D1867125D075C3008744A1 /* PBXContainerItemProxy */;
 		};
 		65D1867D25D075C3008744A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65D1865625D075C1008744A1 /* PortfolioTracker */;
+			target = 65D1865625D075C1008744A1 /* Weighted */;
 			targetProxy = 65D1867C25D075C3008744A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -450,15 +450,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = PortfolioTracker/PortfolioTracker.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Weighted/Weighted.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26LV76TZ6M;
-				INFOPLIST_FILE = PortfolioTracker/Info.plist;
+				INFOPLIST_FILE = Weighted/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SHStudios.PortfolioTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = SHStudios.Weighted;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -471,15 +471,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = PortfolioTracker/PortfolioTracker.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Weighted/Weighted.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26LV76TZ6M;
-				INFOPLIST_FILE = PortfolioTracker/Info.plist;
+				INFOPLIST_FILE = Weighted/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SHStudios.PortfolioTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = SHStudios.Weighted;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -494,18 +494,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26LV76TZ6M;
-				INFOPLIST_FILE = PortfolioTrackerTests/Info.plist;
+				INFOPLIST_FILE = WeightedTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SHStudios.PortfolioTrackerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = SHStudios.WeightedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PortfolioTracker.app/PortfolioTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weighted.app/Weighted";
 			};
 			name = Debug;
 		};
@@ -516,18 +516,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26LV76TZ6M;
-				INFOPLIST_FILE = PortfolioTrackerTests/Info.plist;
+				INFOPLIST_FILE = WeightedTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SHStudios.PortfolioTrackerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = SHStudios.WeightedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PortfolioTracker.app/PortfolioTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weighted.app/Weighted";
 			};
 			name = Release;
 		};
@@ -537,17 +537,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26LV76TZ6M;
-				INFOPLIST_FILE = PortfolioTrackerUITests/Info.plist;
+				INFOPLIST_FILE = WeightedUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SHStudios.PortfolioTrackerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = SHStudios.WeightedUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PortfolioTracker;
+				TEST_TARGET_NAME = Weighted;
 			};
 			name = Debug;
 		};
@@ -557,24 +557,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26LV76TZ6M;
-				INFOPLIST_FILE = PortfolioTrackerUITests/Info.plist;
+				INFOPLIST_FILE = WeightedUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SHStudios.PortfolioTrackerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = SHStudios.WeightedUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PortfolioTracker;
+				TEST_TARGET_NAME = Weighted;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65D1865225D075C1008744A1 /* Build configuration list for PBXProject "PortfolioTracker" */ = {
+		65D1865225D075C1008744A1 /* Build configuration list for PBXProject "Weighted" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D1868225D075C3008744A1 /* Debug */,
@@ -583,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D1868425D075C3008744A1 /* Build configuration list for PBXNativeTarget "PortfolioTracker" */ = {
+		65D1868425D075C3008744A1 /* Build configuration list for PBXNativeTarget "Weighted" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D1868525D075C3008744A1 /* Debug */,
@@ -592,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D1868725D075C3008744A1 /* Build configuration list for PBXNativeTarget "PortfolioTrackerTests" */ = {
+		65D1868725D075C3008744A1 /* Build configuration list for PBXNativeTarget "WeightedTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D1868825D075C3008744A1 /* Debug */,
@@ -601,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D1868A25D075C3008744A1 /* Build configuration list for PBXNativeTarget "PortfolioTrackerUITests" */ = {
+		65D1868A25D075C3008744A1 /* Build configuration list for PBXNativeTarget "WeightedUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D1868B25D075C3008744A1 /* Debug */,
@@ -613,13 +613,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		65D1866325D075C2008744A1 /* PortfolioTracker.xcdatamodeld */ = {
+		65D1866325D075C2008744A1 /* Weighted.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				65D1866425D075C2008744A1 /* PortfolioTracker.xcdatamodel */,
 			);
 			currentVersion = 65D1866425D075C2008744A1 /* PortfolioTracker.xcdatamodel */;
-			path = PortfolioTracker.xcdatamodeld;
+			path = Weighted.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

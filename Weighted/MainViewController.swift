@@ -1,6 +1,6 @@
 //
 //  MainViewController.swift
-//  PortfolioTracker
+//  Weighted
 //
 //  Created by Sam Hollingsworth on 2/7/21.
 //
