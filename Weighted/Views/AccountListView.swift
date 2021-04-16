@@ -49,7 +49,7 @@ final class AccountListView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func apply(viewModel: ViewModel) {
+    func apply(viewModel: AccountListViewModel) {
         titleLabel.text = viewModel.title
         self.viewModel = viewModel
         collectionView.reloadData()

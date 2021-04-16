@@ -9,5 +9,5 @@ import Foundation
 
 struct AccountListViewModel {
     let title: String
-    let portfolios: [AccountView.ViewModel]
+    let portfolios: [AccountViewModel]
 }

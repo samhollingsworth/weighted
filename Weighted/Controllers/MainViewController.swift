@@ -9,6 +9,11 @@ import UIKit
 
 final class MainViewController: UIViewController {
     
+    private enum Constants {
+        static let appTitle = "Weighted"
+        static let backgroundColor: UIColor = .white
+    }
+    
     private let stackView: UIStackView = {
         let view = UIStackView(frame: .zero)
         view.axis = .vertical
@@ -18,7 +23,7 @@ final class MainViewController: UIViewController {
     
     private let titleLabel: UILabel = {
         let view = UILabel(frame: .zero)
-        view.text = "Weighted"
+        view.text = Constants.appTitle
         return view
     }()
     
@@ -27,11 +32,11 @@ final class MainViewController: UIViewController {
         return view
     }()
     
-    private var accounts: [AccountView.ViewModel]?
+    private var accounts: [AccountViewModel]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        view.backgroundColor = Constants.backgroundColor
         setupViews()
         setupConstraints()
     }
@@ -43,13 +48,13 @@ final class MainViewController: UIViewController {
 private extension MainViewController {
     
     func setupViews() {
-        let rothIRA = AccountView.ViewModel(name: "Roth IRA", performance: 2.34)
-        let retirementPortfolio = AccountView.ViewModel(name: "401k", performance: -0.68)
-        let taxable = AccountView.ViewModel(name: "Taxable", performance: 1.08)
+        let rothIRA = AccountViewModel(name: "Roth IRA", performance: 2.34)
+        let retirementPortfolio = AccountViewModel(name: "401k", performance: -0.68)
+        let taxable = AccountViewModel(name: "Taxable", performance: 1.08)
         
         accounts = [rothIRA, retirementPortfolio, taxable]
         
-        let collection = AccountListView.ViewModel(
+        let collection = AccountListViewModel(
             title: "Individual Accounts",
             portfolios: accounts!)
         accountListView.apply(viewModel: collection)
