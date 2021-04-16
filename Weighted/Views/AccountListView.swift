@@ -8,17 +8,14 @@
 import UIKit
 
 protocol AccountListViewDelegate {
-    func didSelectAccount()
+    func didSelectAccount(at index: Int)
 }
 
 final class AccountListView: UIView {
     
-    struct ViewModel {
-        let title: String
-        let portfolios: [AccountView.ViewModel]
-    }
+    var viewModel: AccountListViewModel?
     
-    var viewModel: ViewModel?
+    public var delegate: AccountListViewDelegate?
     
     private let stackView: UIStackView = {
         let view = UIStackView(frame: .zero)
@@ -110,18 +107,16 @@ extension AccountListView: UICollectionViewDataSource {
         return viewModel?.portfolios.count ?? 0
     }
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        guard let something = viewModel?.portfolios[indexPath.row] else {
-            fatalError()
-        }
-        
-    }
-    
 }
 
 // MARK: UICollectionViewDelegate
 
 extension AccountListView: UICollectionViewDelegate {
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("DID SELECT ITEM at row: \(indexPath.row)")
+        delegate?.didSelectAccount(at: indexPath.row)
+    }
     
 }
 

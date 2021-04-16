@@ -9,11 +9,6 @@ import UIKit
 
 final class AccountView: UICollectionViewCell {
     
-    struct ViewModel {
-        let name: String
-        let performance: Double
-    }
-    
     public static let identifier = "AccountView"
     
     private let stackView: UIStackView = {
@@ -43,7 +38,7 @@ final class AccountView: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func apply(viewModel: ViewModel) {
+    func apply(viewModel: AccountViewModel) {
         nameLabel.text = viewModel.name
         performanceLabel.text = "\(viewModel.performance)"
     }
